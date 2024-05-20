@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+        <item name="android:popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="actionOverflowButtonStyle">@style/MyCustomOverflowButtonStyle</item>
+    </style>
+
+    <style name="MyCustomOverflowButtonStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/baseline_sort_24</item>
+        <item name="android:tint">?attr/colorOnPrimary</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Other theme attributes -->
+        <item name="toolbarStyle">@style/AppTheme.Toolbar</item>
+    </style>
+
+
+</resources>
