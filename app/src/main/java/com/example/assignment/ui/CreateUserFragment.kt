@@ -110,13 +110,13 @@ class CreateUserFragment: Fragment() {
     private fun validatePassword(): Boolean {
         val password = binding.password.editText?.text.toString()
         val passwordPattern = Pattern.compile(
-            "^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[@#\$%^&+=!]).{7,}$"
+            "^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[@#\$%^&+=!]).{7,15}$"
         )
         return if (passwordPattern.matcher(password).matches()) {
             binding.password.error = null
             true
         } else {
-            binding.password.error = "Password must be 7 characters with one uppercase alphabet, one special character, and one numeric digit"
+            binding.password.error = "Password must be 7-15 characters with one uppercase alphabet, one special character, and one numeric digit"
             false
         }
     }
