@@ -1,0 +1,19 @@
+Screens 
+  - LoginFragment
+  - Users Fragment
+  - Add User Fragment
+
+
+Architecture
+  - MVVM Architecture with single Activity and Mutliple Fragments
+
+
+Technology
+   - kotlin
+   - Navigation Component
+   - Room Database
+   - LiveData
+   - ViewBinding
+
+
+![Demo](https://private-user-images.githubusercontent.com/120632814/332019204-ab6b7295-d6b2-482b-8dcf-e81f88b1c448.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTYxOTg4NjAsIm5iZiI6MTcxNjE5ODU2MCwicGF0aCI6Ii8xMjA2MzI4MTQvMzMyMDE5MjA0LWFiNmI3Mjk1LWQ2YjItNDgyYi04ZGNmLWU4MWY4OGIxYzQ0OC5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNTIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDUyMFQwOTQ5MjBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jYTE5MmE4NzQzNjMzMzIwNTcyY2Q0NGZhYzg0NDY1MTk4Mjk2ZDQxZmIyZDJiZjdlY2Q5MmU0OGQxNmQ5YmM4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.Oa6xfQu-xK9fA3I98--o3G3qPrjivlkLG2V1Kj2Vz0o)
